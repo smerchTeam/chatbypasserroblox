@@ -57,7 +57,7 @@
 <body>
     <div class="container">
         <h1>Roblox Chat Bypasser - Website</h1>
-        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+        <textarea id="inputText" placeholder="Вводи свой текст сюда..."></textarea>
         <button onclick="convertAndCopy()">Bypass</button>
     </div>
     <script>
@@ -77,9 +77,9 @@
 
             // Copy to clipboard
             navigator.clipboard.writeText("゘" + convertedText).then(() => {
-                alert('Copied! Paste into ROBLOX my nigga.');
+                alert('Скопировано.');
             }, (err) => {
-                alert('Failed to copy text: ' + err);
+                alert('Не удалось скопировать: ' + err);
             });
         }
     </script>
